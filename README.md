@@ -48,31 +48,13 @@ Follow these steps to set up and run the project on Ubuntu 22.04:
    source btc_venv/bin/activate
    ```
 
-7. **Create the `requirements.txt` File:**
-
-   Create a file named `requirements.txt` with the following content:
-
-   ```text
-   pandas
-   plotly
-   yfinance
-   ```
-
-   You can create this file using a text editor like `vim`:
-
-   ```bash
-   vim requirements.txt
-   ```
-
-   Paste the content into the file and save it (`Ctrl+X`, then `Y`, then `Enter`).
-
-8. **Install the Dependencies:**
+7. **Install the Dependencies:**
 
    ```bash
    pip install -r requirements.txt
    ```
 
-9. **Run the Project:**
+8. **Run the Project:**
 
    Execute the `analysis.py` script to generate and view the interactive Bitcoin price graph:
 
